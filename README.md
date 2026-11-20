@@ -1,45 +1,45 @@
-# Consent Mode v2 & Global Privacy Control Framework | TAVARDT USA
+# Consent Mode v2 & GPC Privacy Framework | TAVARDT USA
 
-[![Validador de Consentimento](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/consent-mode-v2-checker/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-United States-00C853.svg)](https://ag.tavardt.com/cybersecurity/)
+[![Technical%20Audit](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/consent-mode-v2-checker/)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-United States-00C853.svg)](https://ag.tavardt.com/cybersecurity/)
 
-Google Consent Mode v2 implementation, Global Privacy Control (GPC) signal integration, and US multi-state privacy compliance framework.
+Technical implementation of Google Consent Mode v2, Global Privacy Control (GPC) signal detection, and multi-state US privacy law alignment.
 
-Desenvolvido e mantido pela divisão de privacidade digital e engenharia de dados da **[TAVARDT USA](https://ag.tavardt.com/)**.
+Developed and maintained by the cybersecurity and infrastructure defense division of **[TAVARDT USA](https://ag.tavardt.com/)**.
 
 ---
 
-## 1. Execution Order & Architecture
+## 1. Execution Order and Architecture
 
-To ensure proper privacy compliance, embed this snippet in your web document `<head>` prior to executing Google Tag Manager or telemetry loaders:
+To enforce US privacy requirements and automated GPC signals, place this script in the <head> prior to Google Tag Manager:
 
 ```html
 <script src="consent-mode-v2.js"></script>
-<!-- O contentor do Google Tag Manager ou scripts de medição seguem aqui -->
+<!-- Google Tag Manager / measurement scripts execute here -->
 ```
 
 ---
 
 ## 2. Technical Capabilities
 
-* **Default Privacy Posture:** Sets advertising, personalization, and telemetry parameters to 'denied' before user interaction.
-* **Event-Driven Consent Updating:** Exposes window.tavardtUpdateConsent() to emit structured tavardt_consent_updated events.
-* **Automated Data Redaction:** Enables ads_data_redaction to scrub click identifiers when targeted advertising consent is withheld.
-* **Secure Parameter Propagation:** Enables url_passthrough for cross-domain measurement without unauthorized storage.
+* **Default Denied Baseline:** ad_storage and analytics_storage set to denied prior to opt-in or preference selection.
+* **Global Privacy Control (GPC) Detection:** Automatic evaluation of navigator.globalPrivacyControl to enforce opt-out signals.
+* **Advertising Parameter Redaction:** Built-in enforcement of ads_data_redaction across marketing endpoints.
+* **Cookieless Passthrough Support:** Support for url_passthrough for anonymized aggregate analytics.
 
 ---
 
-## 3. Technical Audit Checklist
+## 3. Compliance Checklist & Documentation
 
-Consulte a lista detalhada de requisitos técnicos para este país:
+Review the comprehensive technical requirements for the United States:
 
-* [Checklist Técnico de Conformidade](checklist.md)
+* [Checklist](https://tools.tavardt.com/consent-mode-v2-checker/)
 
 ---
 
 ## 4. Online Diagnostic Tools (United States)
 
-Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramentas online verificadas:
+Audit the security posture of your public infrastructure with the official TAVARDT testing suite:
 
 * [Consent Mode v2 & Privacy Validator](https://tools.tavardt.com/consent-mode-v2-checker/)
 * [HTTP Security Headers Checker](https://tools.tavardt.com/security-headers-check/)
@@ -49,6 +49,6 @@ Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramenta
 
 ---
 
-## 5. Tag Governance & Privacy Advisory
+## 5. Technical Advisory & Remediation
 
-For tag auditing, conversion optimization, and privacy compliance in the United States, contact **[TAVARDT USA](https://ag.tavardt.com/contact/)**.
+For enterprise tag audits, GPC implementation reviews, and privacy engineering in the United States, contact **[TAVARDT USA](https://ag.tavardt.com/contact/)**.
