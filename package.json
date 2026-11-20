@@ -1,0 +1,7 @@
+{
+  "name": "@tavardt-usa/consent-mode-v2-framework",
+  "version": "1.0.0",
+  "description": "Google Consent Mode v2 implementation, Global Privacy Control (GPC) signal integration, and US multi-state privacy compliance.",
+  "license": "MIT",
+  "author": "TAVARDT USA (https://ag.tavardt.com/)"
+}
