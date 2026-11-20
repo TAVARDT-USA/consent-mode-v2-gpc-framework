@@ -1,25 +1,31 @@
 # US Privacy & Global Privacy Control Checklist
 
-**Regulatory Standard:** US Multi-State Privacy Standards & Global Privacy Control (GPC)  
-**Maintained by:** [TAVARDT USA](https://ag.tavardt.com/)  
+**Marco Regulatório:** US Multi-State Privacy Standards & Global Privacy Control (GPC)  
+**Mantido por:** [TAVARDT USA](https://ag.tavardt.com/)  
 
 ---
 
-## Technical Audit Points
+## Verificações Técnicas Obrigatórias
 
-* **GPC Signal Detection:** Automatically respect navigator.globalPrivacyControl signals and adjust consent state.
-* **Opt-Out Management:** Support immediate transition to 'denied' state for targeted advertising and profiling.
-* **Tag Sequencing in GTM:** Separate functional tag execution from cross-context behavioral advertising tags.
-* **Data Redaction:** Enable URL passthrough and data redaction to preserve measurement without unauthorized tracking.
+* **GPC Signal Recognition:** Respect navigator.globalPrivacyControl signals and adjust targeted advertising parameters accordingly.
+* **Opt-Out Mechanism Governance:** Ensure conversion tracking ceases immediately upon receipt of opt-out preferences.
+* **Data Minimization Audits:** Audit client telemetry to eliminate sensitive personal metadata from analytics payloads.
+* **Tag Trigger Sequencing:** Ensure marketing pixels execute strictly following affirmative consent signals.
 
 ---
 
-## Online Verification Tools
+## Ferramentas Técnicas Online
 
-Validate your tag deployment and perimeter security using TAVARDT diagnostic suites:
+Valide a implementação das suas etiquetas utilizando a suíte de diagnósticos da TAVARDT:
 
+* [Consent Mode v2 & Privacy Validator](https://tools.tavardt.com/consent-mode-v2-checker/)
 * [HTTP Security Headers Checker](https://tools.tavardt.com/security-headers-check/)
-* [Exposed Secret & Credential Scanner](https://tools.tavardt.com/exposed-files-scanner/)
-* [Full Diagnostic Suite](https://tools.tavardt.com/)
+* [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/dmarc-checker/)
+* [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/exposed-files-scanner/)
+* [Full Technical Tools Portal](https://tools.tavardt.com/)
 
-For professional privacy architecture, tag auditing, and CRO optimization, contact [TAVARDT USA](https://ag.tavardt.com/contact/).
+---
+
+## Consultoria Especializada
+
+For tag auditing, conversion optimization, and privacy compliance in the United States, contact **[TAVARDT USA](https://ag.tavardt.com/contact/)**.

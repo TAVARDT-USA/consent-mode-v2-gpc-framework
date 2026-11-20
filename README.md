@@ -1,49 +1,54 @@
 # Consent Mode v2 & Global Privacy Control Framework | TAVARDT USA
 
-[![Privacy Compliance](https://img.shields.io/badge/Compliance-Consent%20Mode%20v2-5b3cf5.svg)](https://tools.tavardt.com/)
-[![Regulatory Standard](https://img.shields.io/badge/Region-USD-00C853.svg)](https://ag.tavardt.com/)
+[![Validador de Consentimento](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/consent-mode-v2-checker/)
+[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-United States-00C853.svg)](https://ag.tavardt.com/cybersecurity/)
 
-Google Consent Mode v2 implementation, Global Privacy Control (GPC) signal integration, and US multi-state privacy compliance.
+Google Consent Mode v2 implementation, Global Privacy Control (GPC) signal integration, and US multi-state privacy compliance framework.
 
-Maintained by the analytics, privacy engineering, and cybersecurity division at [TAVARDT USA](https://ag.tavardt.com/).
+Desenvolvido e mantido pela divisão de privacidade digital e engenharia de dados da **[TAVARDT USA](https://ag.tavardt.com/)**.
 
 ---
 
-## 1. Architecture & Execution Order
+## 1. Execution Order & Architecture
 
-To achieve full compliance with US Multi-State Privacy Standards & Global Privacy Control (GPC), this snippet must be positioned in the `<head>` of your website **immediately before** your Google Tag Manager container or tracking loader:
+To ensure proper privacy compliance, embed this snippet in your web document `<head>` prior to executing Google Tag Manager or telemetry loaders:
 
 ```html
 <script src="consent-mode-v2.js"></script>
-<!-- Google Tag Manager / Analytics Script Follows Here -->
+<!-- O contentor do Google Tag Manager ou scripts de medição seguem aqui -->
 ```
 
 ---
 
-## 2. Core Capabilities
+## 2. Technical Capabilities
 
-* **Strict Default 'Denied' Posture:** Enforces privacy by default across all advertising, telemetry, and personal identifier parameters.
-* **Consent Update API:** Provides an event-driven `window.tavardtUpdateConsent()` method that triggers a structured `tavardt_consent_updated` dataLayer event.
-* **Ads Data Redaction:** Automatically strips click identifiers (such as GCLID and DCLID) from ad requests when marketing consent is absent.
-* **URL Passthrough:** Preserves conversion attribution across domain boundaries using cryptographic hashes without storing persistent browser cookies.
-
----
-
-## 3. Compliance Documentation
-
-Review our jurisdictional implementation guidelines:
-
-* [Technical Checklist](checklist.md): Step-by-step audit points for tag governance under US Multi-State Privacy Standards & Global Privacy Control (GPC).
+* **Default Privacy Posture:** Sets advertising, personalization, and telemetry parameters to 'denied' before user interaction.
+* **Event-Driven Consent Updating:** Exposes window.tavardtUpdateConsent() to emit structured tavardt_consent_updated events.
+* **Automated Data Redaction:** Enables ads_data_redaction to scrub click identifiers when targeted advertising consent is withheld.
+* **Secure Parameter Propagation:** Enables url_passthrough for cross-domain measurement without unauthorized storage.
 
 ---
 
-## 4. Online Diagnostic Suite
+## 3. Technical Audit Checklist
 
-Audit your public web applications and verify tracking privacy on our regional testing platform:
+Consulte a lista detalhada de requisitos técnicos para este país:
 
-* [Online HTTP Security Headers Checker](https://tools.tavardt.com/security-headers-check/)
-* [Exposed Credentials Scanner](https://tools.tavardt.com/exposed-files-scanner/)
+* [Checklist Técnico de Conformidade](checklist.md)
+
+---
+
+## 4. Online Diagnostic Tools (United States)
+
+Audite a conformidade das suas etiquetas e proteja o seu domínio com ferramentas online verificadas:
+
+* [Consent Mode v2 & Privacy Validator](https://tools.tavardt.com/consent-mode-v2-checker/)
+* [HTTP Security Headers Checker](https://tools.tavardt.com/security-headers-check/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/dmarc-checker/)
-* [Complete Regional Diagnostic Suite](https://tools.tavardt.com/)
+* [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/exposed-files-scanner/)
+* [Full Technical Tools Portal](https://tools.tavardt.com/)
 
-For comprehensive conversion tracking audits, consent management implementation, and technical consulting, contact [TAVARDT USA](https://ag.tavardt.com/contact/).
+---
+
+## 5. Tag Governance & Privacy Advisory
+
+For tag auditing, conversion optimization, and privacy compliance in the United States, contact **[TAVARDT USA](https://ag.tavardt.com/contact/)**.
