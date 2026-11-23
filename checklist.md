@@ -14,7 +14,7 @@
 
 ---
 
-## Ferramentas Técnicas Online
+## Online Technical Tools
 
 Valide a implementação das suas etiquetas utilizando a suíte de diagnósticos da TAVARDT:
 
