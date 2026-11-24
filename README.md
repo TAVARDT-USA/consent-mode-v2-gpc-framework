@@ -3,7 +3,7 @@
 [![Technical%20Audit](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/consent-mode-v2-checker/)
 Technical implementation of Google Consent Mode v2, Global Privacy Control (GPC) signal detection, and multi-state US privacy law alignment.
 
-Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT USA**.
+Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT**.
 
 ***
 
@@ -49,7 +49,7 @@ Audit the security posture of your public infrastructure with the official TAVAR
 
 ## 5. Technical Advisory & Remediation
 
-For enterprise tag audits, GPC implementation reviews, and privacy engineering in the United States, contact **TAVARDT USA**.
+For enterprise tag audits, GPC implementation reviews, and privacy engineering in the United States, contact **TAVARDT**.
 
 ***
 
