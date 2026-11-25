@@ -28,32 +28,23 @@ To enforce US privacy requirements and automated GPC signals, place this script 
 
 ***
 
-## 3. Compliance Checklist & Documentation
-
-Review the comprehensive technical requirements for the United States:
-
-* Checklist
-
-***
-
-## 4. Online Diagnostic Tools (United States)
+## 3. Online Diagnostic Tools (United States)
 
 Audit the security posture of your public infrastructure with the official TAVARDT testing suite:
 
 * [HTTP Security Headers Checker](https://tools.tavardt.com/security-headers-check/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/exposed-files-scanner/)
-* [Full Technical Tools Portal](https://tools.tavardt.com/)
 
 ***
 
-## 5. Technical Advisory & Remediation
+## 4. Technical Advisory & Remediation
 
 For enterprise tag audits, GPC implementation reviews, and privacy engineering in the United States, contact **TAVARDT**.
 
 ***
 
-## Useful Links
+## 5. Useful Links
 
 * **Corporate Portal:** https://ag.tavardt.com/
 * **Diagnostic Suite:** https://tools.tavardt.com/
