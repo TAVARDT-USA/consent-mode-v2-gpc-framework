@@ -1,12 +1,10 @@
 # Consent Mode v2 & GPC Privacy Framework
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Technical Audit](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/consent-mode-v2-checker/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-Node.js-yellow.svg)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Technical implementation of Google Consent Mode v2, Global Privacy Control (GPC) signal detection, and multi-state US privacy law alignment.
-
-Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT**.
 
 ***
 
@@ -42,7 +40,6 @@ Review the comprehensive technical requirements for the United States:
 
 Audit the security posture of your public infrastructure with the official TAVARDT testing suite:
 
-* Consent Mode v2 & Privacy Validator
 * [HTTP Security Headers Checker](https://tools.tavardt.com/security-headers-check/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/exposed-files-scanner/)
@@ -65,7 +62,7 @@ For enterprise tag audits, GPC implementation reviews, and privacy engineering i
 ***
 
 ### License
-Released under the MIT License. See [LICENSE](LICENSE) for full details.
+Released under the MIT License.
 
 ***
 
